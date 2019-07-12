@@ -1,0 +1,88 @@
+.tixingcss {
+  color: #09f;
+  font-size: 40rpx;
+  display: flex;
+  justify-content: center;
+  margin: 16rpx;
+}
+
+.tixingcss text {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.timucss {
+  font-size: 44rpx;
+  margin: 16rpx;
+}
+
+.xuanxiangcss {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.xuanxiangcsstubiao {
+  color: #09f;
+  font-size: 46rpx;
+  border: 2rpx #09f solid;
+  border-radius: 50%;
+  width: 80rpx;
+  height: 80rpx;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+}
+
+.xuanxiangcsswenzi {
+  font-size: 40rpx;
+  width: 80%;
+}
+
+.shangxiati{
+  position:fixed;
+  bottom:30rpx;
+  display:flex;
+  width:100%;
+  justify-content:center;
+  
+}
+
+
+.daancss{
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 92%;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px 2px rgb(241, 241, 241);
+  border-radius: 20rpx;
+  border: 1rpx;
+  border-color: #d2d3d3;
+
+}
+
+
+::-webkit-scrollbar{
+width: 0;
+height: 0;
+color: transparent;
+}
+
+page{
+  background-color:#f2f2f2
+}

@@ -1,0 +1,10 @@
+<!-- <view class='v1'>
+  <text style='  text-align: center;font-size: 50rpx;font-weight: bold;margin-bottom: 0rpx;'>开发团队</text>
+
+  <image src='../../../../src/QR4.jpg' mode='idthFix'></image>
+  <text style='text-align:left'>深大计软小白一枚o(´^｀)o，在2019年寒假磕磕碰碰开发出这个小程序。</text>
+  <text style='text-align:left'>它可能现在还不是特别好用，要是有什么BUG或者好的建议你可以扫描这个二维码告诉我。</text>
+  <text style='text-align:left'>要是你也愿意帮助我完善它，也非常欢迎你的加入，我们一起把它做好！─=≡Σ(((つ•̀ω•́)つ</text>
+</view> -->
+
+<web-view src='https://mp.weixin.qq.com/s/u78SB3LuxRxLcxH4Ab931Q'></web-view>

@@ -1,0 +1,20 @@
+<!-- 
+<view class='v1'>
+<text class='title'>SZU计软学院入党各个阶段咨询群</text>
+<image src='../../../../src/QR1.jpg' mode='idthFix'></image>
+<text>想要报名入党的同学可以扫这个二维码加入积极分子考试报名和咨询群</text>
+</view>
+
+
+<view class='v1'>
+<image src='../../../../src/QR2.jpg' mode='idthFix'></image>
+<text>已经通过积极分子考试还有面谈在等待下一阶段的同学可以加入这个群等党课培训通知</text>
+</view>
+
+<view class='v1'>
+<image src='../../../../src/QR3.jpg' mode='idthFix'></image>
+<text>深圳大学计算机与软件学院党务官方公众号，任何有关学院党务的通知都在这里直接发布~</text>
+<text>\n</text>
+</view> -->
+
+<web-view src='https://mp.weixin.qq.com/s/ln7TtH5VmpgGd20z03-Tcg'></web-view>

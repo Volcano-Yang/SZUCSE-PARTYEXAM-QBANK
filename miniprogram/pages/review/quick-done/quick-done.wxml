@@ -1,0 +1,110 @@
+<view class='selection'>
+<button class='buttom' catchtap='jijifenzi'>积极分子</button>
+<button class='buttom' catchtap='fazhanduixiang'>发展对象</button>
+</view>
+
+
+
+
+  <view wx:for="{{postList}}">
+
+    <view wx:if='{{postList[index].tixing=="单选题"}}'>
+      <view class=' items '>
+        <!-- 单选题 -->
+        <view class='ava-nic-view '>
+          <text style='font-size:28rpx; color:#cccccc; margin-left:30rpx '>{{postList[index].zhangjie}}</text>
+          <text style='font-size:28rpx; color:#cccccc;margin-left:30rpx; '>{{postList[index].tixing}}</text>
+          <!-- <text style='font-size:28rpx; color:#cccccc;margin-left:30rpx; '>收藏者：{{userid}}</text> -->
+        </view>
+        <view style='height:20rpx; '></view>
+
+
+        <!-- 问题文字 -->
+
+        <view class='text1 '>
+          <text>{{postList[index].timu}}\n\n</text>
+          <text>a.{{postList[index].xuanxianga}}\n</text>
+          <text>b.{{postList[index].xuanxiangb}}\n</text>
+          <text>c.{{postList[index].xuanxiangc}}\n</text>
+          <text>d.{{postList[index].xuanxiangd}}\n</text>
+          <view style='margin-top: 30rpx; '>正确答案：
+            <text style='color:#09f '>{{postList[index].daan}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+
+    <view wx:elif='{{postList[index].tixing=="判断题"}}'>
+      <view class=' items '>
+        <!-- 填空题 -->
+        <view class='ava-nic-view '>
+          <text style='font-size:28rpx; color:#cccccc; margin-left:30rpx '>{{postList[index].zhangjie}}</text>
+          <text style='font-size:28rpx; color:#cccccc;margin-left:30rpx; '>{{postList[index].tixing}}</text>
+          <!-- <text style='font-size:28rpx; color:#cccccc;margin-left:30rpx; '>收藏者：{{userid}}</text> -->
+        </view>
+        <view style='height:20rpx; '></view>
+
+
+        <!-- 问题文字 -->
+
+        <view class='text1 '>
+          <text>{{postList[index].timu}}\n\n</text>
+          <text>a.{{postList[index].xuanxianga}}\n</text>
+          <text>b.{{postList[index].xuanxiangb}}\n</text>
+          <view style='margin-top: 30rpx; '>正确答案：
+            <text style='color:#09f '>{{postList[index].daan}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+
+    <view wx:elif='{{postList[index].tixing=="填空题"}}'>
+      <view class=' items '>
+        <!-- 填空题 -->
+        <view class='ava-nic-view '>
+          <text style='font-size:28rpx; color:#cccccc; margin-left:30rpx '>{{postList[index].zhangjie}}</text>
+          <text style='font-size:28rpx; color:#cccccc;margin-left:30rpx; '>{{postList[index].tixing}}</text>
+          <!-- <text style='font-size:28rpx; color:#cccccc;margin-left:30rpx; '>收藏者：{{userid}}</text> -->
+        </view>
+        <view style='height:20rpx; '></view>
+
+
+        <!-- 问题文字 -->
+
+        <view class='text1 '>
+          <text>{{postList[index].timu}}\n\n</text>
+          <view style='margin-top: 30rpx; '>正确答案：\n
+            <text style='color:#09f '>\n\n{{postList[index].daan}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+    <view wx:elif='{{postList[index].tixing=="简答论述题"}}'>
+      <view class=' items '>
+        <!-- 填空题 -->
+        <view class='ava-nic-view '>
+          <text style='font-size:28rpx; color:#cccccc; margin-left:30rpx '>{{postList[index].zhangjie}}</text>
+          <text style='font-size:28rpx; color:#cccccc;margin-left:30rpx; '>{{postList[index].tixing}}</text>
+          <!-- <text style='font-size:28rpx; color:#cccccc;margin-left:30rpx; '>收藏者：{{userid}}</text> -->
+        </view>
+        <view style='height:20rpx; '></view>
+
+
+        <!-- 问题文字 -->
+
+        <view class='text1 '>
+          <text>{{postList[index].timu}}\n\n</text>
+          <view style='margin-top: 30rpx; '>正确答案：
+            <text style='color:#09f '>\n\n{{postList[index].daan}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>

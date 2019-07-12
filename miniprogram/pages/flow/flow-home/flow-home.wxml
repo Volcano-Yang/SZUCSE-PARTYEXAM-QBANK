@@ -1,0 +1,25 @@
+<!--pages/gengduo/gengduo.wxml-->
+
+
+<view class='article' catchtap='skip_w1'>
+<image style="width: 100%; height:100%;" mode="idthFix" src='../../../src/rudangliuchengjieshao.png'></image>
+<text>入党流程介绍</text>
+</view>
+
+<view class='article' catchtap='skip_w2'>
+<image style="width: 100%; height:100%;" mode="idthFix" src='../../../src/xueyuandangqun.png'></image>
+<text>学院入党各阶段成员群</text>
+</view>
+
+
+<view class='article' catchtap='skip_w3'>
+<image style="width: 100%; height:100%;" mode="idthFix" src='../../../src/article-photo1.png'></image>
+<text>党务组||我们很红也很酷</text>
+</view>
+
+
+
+<view class='article' catchtap='skip_w4'>
+<image style="width: 100%; height:100%;" mode="idthFix" src='../../../src/kaifatuandui.png'></image>
+<text>小程序开发团队</text>
+</view>

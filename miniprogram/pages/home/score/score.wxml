@@ -1,0 +1,30 @@
+<!-- <view class='v1'>
+  <text class='title'>评分标准</text>
+
+  <text class='wenzi'>1.入党动机是否端正和思想觉悟</text>
+</view>
+
+<view class='v1'>
+  <text class='wenzi'>2.是否有良好的群众关系和集体观念</text>
+</view>
+<view class='v1'>
+  <text class='wenzi'>3.在学校的实践情况</text>
+</view>
+<view class='v1'>
+  <text class='wenzi'>4.国家时事政治的关注</text>
+</view>
+<view class='v1'>
+  <text class='wenzi'>5.党章党史的了解情况</text>
+</view>
+<view class='v1'>
+  <text class='wenzi'>6.对党委工作的了解和建议</text>
+</view>
+<view class='v1'>
+  <text class='wenzi'>7.学业表现和生活习惯</text>
+</view>
+
+<view class='v1'>
+  <text class='wenzi'>8.只能帮告诉你们这么多。。。</text>
+</view> -->
+
+<web-view src='https://mp.weixin.qq.com/s/AmHiw4I4YXBxPr-14CW3DA'></web-view>

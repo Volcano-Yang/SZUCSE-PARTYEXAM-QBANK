@@ -1,0 +1,118 @@
+.custom{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 45px;
+  background:	#0099FF;
+  z-index: 999;
+}
+.custom text{
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 500;
+  max-width: 280rpx;
+  margin-left: 50rpx;
+  padding-top: 20rpx;
+}
+.empty_custom{
+  height: 45px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.top-view{
+  width: 100%;
+  height: 240rpx;
+  background-color: #0099FF;
+}
+
+
+.head{
+  margin: 0 auto;  
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 161rpx;
+  height: 161rpx;
+  border-radius: 50%;
+}
+
+
+.nickname{
+  display: flex;
+  justify-content: center;
+  font-size: 40rpx;
+  color: #ffffff;
+  margin:20rpx;
+}
+
+
+.treeview{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60rpx;
+  background-color: #ffffff;
+}
+
+.treevieweach{
+  display: flex;
+  flex-direction:column;
+  height:200rpx;
+  width: 33%;
+  /* border: 1rpx #0099FF solid; */
+}
+
+.treevieweach image{
+  height: 100rpx;
+  width: 100rpx;
+  margin: 0 auto;  
+  margin-top: 20rpx;
+}
+
+.treevieweach text{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  font-size: 36rpx;
+  color:black;
+}
+
+page{
+  background-color: #F0F0F0;
+}
+
+
+.next-column{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+
+ height: 120rpx;
+ width: 100%;
+ background-color: #ffffff;
+
+ margin-top: 180rpx;
+ border-radius:10px
+}
+
+.next-column  image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 16rpx;
+}
+
+.next-column text{
+  color: #0055FF;
+  text-align: center;
+}

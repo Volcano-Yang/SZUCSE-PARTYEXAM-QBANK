@@ -1,0 +1,197 @@
+<scroll-view scroll-y="true" style='height:2000rpx;'>
+
+  <view>
+    <!-- 单选题 -->
+    <view wx:if='{{postList[index].tixing=="单选题"}}' class='items'>
+      <view class="tixingcss">
+        <text>{{postList[index].zhangjie}}</text>
+        <!-- <text>{{postList[index].tixing}}</text>
+        <text>{{index+1}}/{{postList.length}}</text> -->
+      </view>
+
+      <view class="tixingcss">
+        <!-- <text>{{postList[index].zhangjie}}</text> -->
+        <text>{{postList[index].tixing}}</text>
+        <text>{{index+1}}/{{postList.length}}</text>
+      </view>
+
+      <view class="timucss">
+        <text>{{postList[index].tihao}}.{{postList[index].timu}}</text>
+      </view>
+
+      <view hidden="{{ny}}" class="daancss">
+        正确答案：
+        <text style='color:#09f'>{{postList[index].daan}}</text>
+      </view>
+
+
+      <view class='xuanxiangcss'>
+        <view id='A' bindtap="btnOpClick" style="background-color: {{bcA}};" class='xuanxiangcsstubiao'>
+          <text>{{postList[index].contenta}}</text>
+        </view>
+
+        <view class='xuanxiangcsswenzi'>
+          <text>{{postList[index].xuanxianga}}</text>
+        </view>
+      </view>
+
+
+      <view class='xuanxiangcss'>
+        <view id='B' bindtap="btnOpClick" style="background-color: {{bcB}};" class='xuanxiangcsstubiao'>
+          <text>{{postList[index].contentb}}</text>
+        </view>
+        <view class='xuanxiangcsswenzi'>
+          <text>{{postList[index].xuanxiangb}}</text>
+        </view>
+      </view>
+
+
+      <view class='xuanxiangcss'>
+        <view id='C' bindtap="btnOpClick" style="background-color: {{bcC}};" class='xuanxiangcsstubiao'>
+          <text>{{postList[index].contentc}}</text>
+        </view>
+        <view class='xuanxiangcsswenzi'>
+          <text>{{postList[index].xuanxiangc}}</text>
+        </view>
+      </view>
+
+      <view class='xuanxiangcss'>
+        <view id='D' bindtap="btnOpClick" style="background-color: {{bcD}};" class='xuanxiangcsstubiao'>
+          <text>{{postList[index].contentd}}</text>
+        </view>
+        <view class='xuanxiangcsswenzi'>
+          <text>{{postList[index].xuanxiangd}}</text>
+        </view>
+      </view>
+    </view>
+
+
+    <!-- 判断题 -->
+    <view wx:if='{{postList[index].tixing=="判断题"}}' class='items'>
+      <view class="tixingcss">
+        <text>{{postList[index].zhangjie}}</text>
+      </view>
+
+      <view class="tixingcss">
+        <text>{{postList[index].tixing}}</text>
+        <text>{{index+1}}/{{postList.length}}</text>
+      </view>
+
+      <view class="timucss">
+        <text>{{postList[index].tihao}}.{{postList[index].timu}}</text>
+      </view>
+
+      <view hidden="{{ny}}" class="daancss">
+        正确答案：
+        <text style='color:#09f'>{{postList[index].daan}}</text>
+      </view>
+
+
+      <view class='xuanxiangcss'>
+        <view id='A' bindtap="btnOpClick" style="background-color: {{bcA}};" class='xuanxiangcsstubiao'>
+          <text>{{postList[index].contenta}}</text>
+        </view>
+
+        <view class='xuanxiangcsswenzi'>
+          <text>{{postList[index].xuanxianga}}</text>
+        </view>
+      </view>
+
+
+      <view class='xuanxiangcss'>
+        <view id='B' bindtap="btnOpClick" style="background-color: {{bcB}};" class='xuanxiangcsstubiao'>
+          <text>{{postList[index].contentb}}</text>
+        </view>
+        <view class='xuanxiangcsswenzi'>
+          <text>{{postList[index].xuanxiangb}}</text>
+        </view>
+      </view>
+    </view>
+
+
+
+    <!-- 填空题 -->
+    <view wx:elif='{{postList[index].tixing=="填空题"}}' class='items'>
+
+      <view class="tixingcss">
+        <text>{{postList[index].zhangjie}}</text>
+        <!-- <text>{{postList[index].tixing}}</text>
+        <text>{{index+1}}/{{postList.length}}</text> -->
+      </view>
+
+      <view class="tixingcss">
+        <!-- <text>{{postList[index].zhangjie}}</text> -->
+        <text>{{postList[index].tixing}}</text>
+        <text>{{index+1}}/{{postList.length}}</text>
+      </view>
+
+      <view>
+        <text class="timucss">{{postList[index].tihao}}.{{postList[index].timu}}\n\n</text>
+      </view>
+
+
+      <view hidden="{{ny}}" class="daancss">
+        正确答案：
+        <text style='color:#09f'>\n{{postList[index].daan}}\n\n</text>
+      </view>
+
+
+    </view>
+
+
+    <!-- 简单论述题-->
+    <view wx:elif='{{postList[index].tixing=="简答论述题"}}' class='items'>
+
+      <view class="tixingcss">
+        <text>{{postList[index].zhangjie}}</text>
+        <!-- <text>{{postList[index].tixing}}</text>
+        <text>{{index+1}}/{{postList.length}}</text> -->
+      </view>
+
+      <view class="tixingcss">
+        <!-- <text>{{postList[index].zhangjie}}</text> -->
+        <text>{{postList[index].tixing}}</text>
+        <text>{{index+1}}/{{postList.length}}</text>
+      </view>
+
+      <view>
+        <text class="timucss">{{postList[index].tihao}}.{{postList[index].timu}}\n\n\n</text>
+      </view>
+
+
+      <view hidden="{{ny}}" class="daancss">
+        正确答案：
+        <text style='color:#09f'>\n{{postList[index].daan}}\n\n</text>
+      </view>
+
+
+    </view>
+
+
+
+
+
+
+    <view class="shangxiati">
+      <view class="shangxiatieach1">
+        <button bindtap="lastQuestion">◀</button>
+      </view>
+      <view class="shangxiatieach2">
+        <button bindtap="xianshi" class="xianshidaancss">显示答案</button>
+      </view>
+      <view class="shangxiatieach2">
+        <button class="xianshidaancss" open-type='getUserInfo' lang="zh_CN" bindgetuserinfo="onGotUserInfo">收藏</button>
+      </view>
+      <view class="shangxiatieach1">
+        <button bindtap="nextQuestion">▶</button>
+      </view>
+    </view>
+
+
+  </view>
+
+
+
+
+
+</scroll-view>

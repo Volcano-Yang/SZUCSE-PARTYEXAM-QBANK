@@ -1,0 +1,11 @@
+
+<view class='v1'>
+<image src='../../../src/dianzan.png'></image>
+<text>太强了~\n题目都被你刷完了</text>
+
+<!-- ????为什么回不去 -->
+<!-- <navigator url='../../flow/flow-home/flow-home'> -->
+<button catchtap='skip_special_topic'>回到题库</button>
+<!-- </navigator> -->
+<!-- catchtap='skip_special_topic' -->
+</view>

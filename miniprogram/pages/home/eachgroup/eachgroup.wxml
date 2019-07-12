@@ -1,0 +1,193 @@
+<block wx:if='{{problem_blank=="2017年积极分子考试"}}'>
+
+  <view class='group'>
+
+
+
+    <view>
+      <text style='color: #09f'>请选择练习的部分</text>
+      <text>\n\n</text>
+    </view>
+
+    <navigator url='../question-blank/question-blank?id=112'>
+      <view class='each-group'>
+        <text>选择题</text>
+      </view>
+    </navigator>
+
+
+    <navigator url='../question-blank/question-blank?id=111'>
+      <view class='each-group'>
+        <text>填空题</text>
+      </view>
+    </navigator>
+
+
+    <navigator url='../question-blank/question-blank?id=113'>
+      <view class='each-group'>
+        <text>简答论述题</text>
+      </view>
+    </navigator>
+  </view>
+
+</block>
+
+
+
+
+<block wx:elif='{{problem_blank=="2018年积极分子考试"}}'>
+
+  <view class='group'>
+
+    <view>
+      <text style='color: #09f'>请选择练习的部分</text>
+      <text>\n\n</text>
+    </view>
+
+    <navigator url='../question-blank/question-blank?id=122'>
+      <view class='each-group'>
+        <text>选择题</text>
+      </view>
+    </navigator>
+
+    <navigator url='../question-blank/question-blank?id=121'>
+      <view class='each-group'>
+        <text>填空题</text>
+      </view>
+    </navigator>
+
+    <navigator url='../question-blank/question-blank?id=123'>
+      <view class='each-group'>
+        <text>简答论述题</text>
+      </view>
+    </navigator>
+
+  </view>
+
+</block>
+
+
+
+<block wx:elif='{{problem_blank=="党章"}}'>
+
+  <view class='group'>
+
+
+    <view>
+      <text style='color: #09f'>请选择练习的部分</text>
+      <text>\n\n</text>
+    </view>
+
+
+    <navigator url='../question-blank/question-blank?id=211'>
+      <view class='each-group'>
+        <text>第一组</text>
+      </view>
+    </navigator>
+
+    <navigator url='../question-blank/question-blank?id=212'>
+      <view class='each-group'>
+        <text>第二组</text>
+      </view>
+    </navigator>
+
+    <navigator url='../question-blank/question-blank?id=213'>
+      <view class='each-group'>
+        <text>第三组</text>
+      </view>
+    </navigator>
+
+  </view>
+
+</block>
+
+
+
+<block wx:elif='{{problem_blank=="党史"}}'>
+
+  <view class='group'>
+
+    <view>
+      <text style='color: #09f'>请选择练习的部分</text>
+      <text>\n\n</text>
+    </view>
+
+    <navigator url='../question-blank/question-blank?id=221'>
+      <view class='each-group'>
+        <text>第一组</text>
+      </view>
+    </navigator>
+
+    <navigator url='../question-blank/question-blank?id=222'>
+      <view class='each-group'>
+        <text>第二组</text>
+      </view>
+    </navigator>
+
+    <!-- <navigator url='../question-blank/question-blank?id=223'>
+      <view class='each-group'>
+        <text>第三组</text>
+      </view>
+    </navigator> -->
+
+  </view>
+
+</block>
+
+
+<block wx:elif='{{problem_blank=="十九大"}}'>
+
+  <view class='group'>
+
+    <view>
+      <text style='color: #09f'>请选择练习的部分</text>
+      <text>\n\n</text>
+    </view>
+
+    <navigator url='../question-blank/question-blank?id=231'>
+      <view class='each-group'>
+        <text>第一组</text>
+      </view>
+    </navigator>
+
+    <navigator url='../question-blank/question-blank?id=232'>
+      <view class='each-group'>
+        <text>第二组</text>
+      </view>
+    </navigator>
+
+    <navigator url='../question-blank/question-blank?id=233'>
+      <view class='each-group'>
+        <text>第三组</text>
+      </view>
+    </navigator>
+  </view>
+
+</block>
+
+
+<block wx:elif='{{problem_blank=="2017年发展对象面谈问题"}}'>
+
+  <view class='group'>
+
+    <view>
+      <text style='color: #09f'>请选择练习的部分</text>
+      <text>\n\n</text>
+    </view>
+
+    <navigator url='../score/score'>
+      <view class='each-group'>
+        <text>评分标准</text>
+      </view>
+    </navigator>
+
+    <navigator url='../aaa/aaa'>
+      <view class='each-group'>
+        <text>面谈常见问题</text>
+      </view>
+    </navigator>
+
+
+  </view>
+
+</block>

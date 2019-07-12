@@ -1,0 +1,28 @@
+.v1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50rpx;
+  width: 100%;
+}
+
+.v1 text{
+
+  margin: 20rpx;
+  font-size: 40rpx;
+}
+
+.v1 image {
+  width: 600rpx;
+  height:600rpx;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+  margin-top: 50rpx;
+}
+
+ .title {
+  text-align: center;
+  font-size: 46rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+ }

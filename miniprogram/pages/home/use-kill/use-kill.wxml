@@ -1,0 +1,20 @@
+<!-- <view class='v1'>
+  <text class='title'>(1) 题库</text>
+
+  <text class='wenzi'>题库中有入党考试试卷的出题源题库，近几年积极分子考试，发展对象党课培训结业机考的模拟考试，还有转预备党员的面谈大致问题。</text>
+</view>
+
+<view class='v1'>
+  <text class='title'>(2) 复习</text>
+
+  <text class='wenzi'>复习版块还在开发中，下个版本就会添加收藏功能，考前刷题模式等更加智能缩短备考时间的方便功能。同时因为</text>
+</view>
+
+<view class='v1'>
+  <text class='title'>(3) 更多</text>
+
+  <text class='wenzi'>详细介绍入党的整个流程，学院入党各个阶段的咨询群，还有介绍党务组和开发团队的文章。</text>
+  <text></text>
+</view> -->
+
+<web-view src='https://mp.weixin.qq.com/s/1TiS-7Vlp-75czSsj42sVw'></web-view>

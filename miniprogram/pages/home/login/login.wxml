@@ -1,0 +1,10 @@
+<view style='display:flex;flex-direction:column;align-items:center;justify-content:center;margin-top:100rpx;'>
+  <image class='avator' src='../../../src/logo.jpg'></image>
+  <text class='text'>欢迎来到“计软党建e题库”小程序</text>
+  <!-- <navigator url='../instructions/instructions'> -->
+    <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class='buttom' >进入题库</button>
+    <view wx:else>请升级微信版本</view>
+  <!-- </navigator> -->
+</view>
+
+<!-- open-type='getUserInfo' lang="zh_CN" bindgetuserinfo="onGotUserInfo" -->

@@ -1,0 +1,28 @@
+.block {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px rgb(241, 241, 241);
+  border-radius: 20rpx;
+  border: 1rpx;
+  border-color: #d2d3d3;
+  margin: 30rpx;
+}
+
+.each-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.each-item image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.each-item text {
+  text-align: center;
+  color: #0099FF
+}
+
+page {
+  background-color: #f2f2f2;
+}

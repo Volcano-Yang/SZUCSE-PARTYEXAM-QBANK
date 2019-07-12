@@ -1,0 +1,27 @@
+
+.avator{
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.text{
+  font-size: 38rpx;
+  margin-top: 60rpx;
+  color: #5a5a5a;
+
+}
+.buttom{
+
+  width: 300rpx;
+  height:76rpx;
+  line-height: 76rpx;
+  font-size: 36rpx;
+  border-radius: 40rpx;
+  margin-top: 60rpx;
+  background-color: #0099FF;
+  color: #ffffff;
+  box-shadow: 1px 1px 1px 1px rgb(225, 241, 255);
+}
+.buttom::after{
+  border:none;
+}

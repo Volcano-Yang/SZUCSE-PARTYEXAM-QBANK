@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/home/login/login",
+    "pages/home/instructions/instructions",
+    "pages/flow/flow-home/flow-home",
+    "pages/review/review-home/review-home",
+    "pages/review/collect-problems/collect-problems",
+    "pages/home/end/end",
+    "pages/home/experience/experience",
+    "pages/home/use-kill/use-kill",
+    "pages/flow/web-view/w2/w2",
+    "pages/flow/web-view/w3/w3",
+    "pages/flow/web-view/w4/w4",
+    "pages/next/next",
+    "pages/home/question-blank/question-blank",
+    "pages/home/eachgroup/eachgroup",
+    "pages/home/score/score",
+    "pages/home/aaa/aaa",
+    "pages/review/more-question/more-question",
+    "pages/review/quick-done/quick-done"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0099FF",
+    "navigationBarTitleText": "计软党员e题库",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#A9A9A9",
+    "selectedColor": "0099FF",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/instructions/instructions",
+        "text": "题库",
+        "iconPath": "src/edit.png",
+        "selectedIconPath": "src/播放.png"
+      },
+      {
+        "pagePath": "pages/review/review-home/review-home",
+        "text": "复习",
+        "iconPath": "src/用户.png",
+        "selectedIconPath": "src/播放.png"
+      },
+      {
+        "pagePath": "pages/flow/flow-home/flow-home",
+        "text": "咨询",
+        "iconPath": "src/收藏.png",
+        "selectedIconPath": "src/播放.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

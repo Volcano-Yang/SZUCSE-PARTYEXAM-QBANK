@@ -1,0 +1,6 @@
+<!-- <view>
+  <image class='i1' src='../../../../src/rudangflow.png' mode="idthFix"></image>
+</view> -->
+
+<web-view src='https://mp.weixin.qq.com/s/E7vQ3RQ5VD1NB_cOX1qbpA'></web-view>
+

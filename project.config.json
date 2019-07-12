@@ -1,0 +1,239 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wxb9a5903c4a4edf16",
+	"projectname": "%E5%85%9A%E5%BB%BAe%E9%A2%98%E5%BA%93",
+	"libVersion": "2.2.5",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 28,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "instructions",
+					"pathName": "pages/home/instructions/instructions",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "special-topic",
+					"pathName": "pages/home/special-topic/special-topic",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "step1",
+					"pathName": "pages/home/step1/step1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "introdution",
+					"pathName": "pages/home/introdution/introdution",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "step2",
+					"pathName": "pages/home/step2/step2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "step3",
+					"pathName": "pages/home/step3/step3",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "review-home",
+					"pathName": "pages/review/review-home/review-home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "flow-home",
+					"pathName": "pages/flow/flow-home/flow-home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "party-history",
+					"pathName": "pages/home/party-history/party-history",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/home/test/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "party-rules",
+					"pathName": "pages/home/party-rules/party-rules",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "19-cpc",
+					"pathName": "pages/home/19-cpc/19-cpc",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "end",
+					"pathName": "pages/home/end/end",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "test2",
+					"pathName": "pages/home/test2/test2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 15,
+					"name": "w2",
+					"pathName": "pages/flow/web-view/w2/w2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 16,
+					"name": "w1",
+					"pathName": "pages/flow/web-view/w1/w1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "w4",
+					"pathName": "pages/flow/web-view/w4/w4",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "next",
+					"pathName": "pages/next/next",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "use-kill",
+					"pathName": "pages/home/use-kill/use-kill",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "experience",
+					"pathName": "pages/home/experience/experience",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "question-blank",
+					"pathName": "pages/home/question-blank/question-blank",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "collect-problems",
+					"pathName": "pages/review/collect-problems/collect-problems",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/home/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "eachgroup",
+					"pathName": "pages/home/eachgroup/eachgroup",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "score",
+					"pathName": "pages/home/score/score",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "aaa",
+					"pathName": "pages/home/aaa/aaa",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "more-question",
+					"pathName": "pages/review/more-question/more-question",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "quick-done",
+					"pathName": "pages/review/quick-done/quick-done",
+					"scene": null
+				}
+			]
+		}
+	}
+}

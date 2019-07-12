@@ -1,0 +1,27 @@
+.v1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+  width: 100%;
+}
+
+.v1 image {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+}
+
+.v1 text {
+  text-align: center;
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.v1 button{
+   margin: 0 auto;
+   width: 300rpx;
+   height:100rpx;
+}

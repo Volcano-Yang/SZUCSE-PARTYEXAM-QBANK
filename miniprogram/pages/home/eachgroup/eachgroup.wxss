@@ -1,0 +1,27 @@
+/* miniprogram/pages/home/eachgroup/eachgroup.wxss */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80rpx;
+}
+
+.each-group {
+  
+  width: 380rpx;
+  height: 120rpx;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  
+ color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  background-color: #09f;
+  border: 4rpx #c0c0c0 solid;
+  box-shadow: 2px 2px 2px 2px rgb(241, 241, 241);
+  border-radius: 20rpx;
+}

@@ -1,0 +1,152 @@
+/* 顶部状态栏样式 */
+.custom{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 45px;
+  background:	#00BFFF;
+  z-index: 999;
+}
+
+.custom text{
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 500;
+  max-width: 280rpx;
+  margin-left: 50rpx;
+  padding-top: 20rpx;
+}
+.empty_custom{
+  height: 45px;
+  width: 100%;
+}
+
+
+
+
+/* 整体盒子 */
+.black{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* 大盒子里的上部 */
+.view1{
+  width: 100%;
+  height: 80rpx;
+  background-color:#0099FF;
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #0066FF;
+  margin-bottom: 10rpx;
+}
+
+.view1 text{
+  color:#fff;
+  font-size: 38rpx;
+  font-weight: 500;
+  margin-left: 18rpx;
+  margin-top: 12rpx;
+}
+
+.view1 image{
+  height: 90%;
+  width: 64rpx;
+  margin-left: 4rpx;
+  margin-right: 4rpx;
+}
+
+/* 大盒子里的下部*/
+.view2{
+  width: 100%;
+  height: 100%;
+ 
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* 大盒子里的下部的左边*/
+.view2-left{
+  width: 30%;
+  height: 100%;
+  background-color:		#F3F3F3;
+
+
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.view2-left-each{
+
+  width: 100%;
+  height: 130rpx;
+  background-color:	#DFDFDF;
+  border-top: 1rpx  #D8D8D8 solid;
+  border-bottom: 1rpx  #D8D8D8 solid;
+
+  margin-bottom: 4rpx;
+  margin-top: 4rpx;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.view2-left-each text{
+  color: 	#696969;
+
+}
+
+
+
+
+/* 大盒子里的下部的右边*/
+.view2-right{
+  width: 70%;
+  height: 1400rpx;
+  background-color:	#F8F8FF;
+
+  display: flex;
+  flex-direction:row;
+  /* justify-content: flex-start; */
+  align-content: flex-start;
+  
+  flex-wrap: wrap;
+
+}
+.view2-right-each{
+
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #0099FF;
+  
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  margin-bottom: 30rpx;
+  margin-bottom: 20rpx;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+.view2-right-each text{
+  color: #fff;
+}/* miniprogram/pages/home/instructions/instructions.wxss */

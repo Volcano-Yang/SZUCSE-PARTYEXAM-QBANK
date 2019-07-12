@@ -1,0 +1,26 @@
+
+.article{
+  display: flex;
+  flex-direction: column;
+  border: 4rpx #C0C0C0 solid;
+
+  height: 520rpx;
+  margin-top:20rpx; 
+  margin-bottom: 70rpx;
+
+
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 94%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px 2px rgb(241, 241, 241);
+  border-radius: 20rpx;
+}
+
+.article text{
+  font-size: 48rpx;
+  font-weight: bold;
+  text-align: center;
+  margin: 14rpx;
+  color: #030303;
+}

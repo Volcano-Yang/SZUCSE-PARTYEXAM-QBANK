@@ -1,0 +1,200 @@
+<!-- 顶部 -->
+<view class='black'>
+  <view class='view1'>
+    <image src='../../../src/liebiao.png' class='image1'></image>
+    <text class='text1'>选择考试</text>
+  </view>
+
+
+
+  <!-- 底部菜单栏 -->
+
+  <!-- 第一个格局 -->
+  <block wx:if='{{selectIndex==1}}'>
+
+    <view class='view2'>
+
+      <view class='view2-left'>
+
+        <view class='view2-left-each'>
+          <text style='color:#1E90FF; '>备考指南</text>
+        </view>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex2'>
+          <text class='view2-left-each-text'>积极分子</text>
+        </view>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex3'>
+          <text class='view2-left-each-text'>发展对象</text>
+        </view>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex4'>
+          <text class='view2-left-each-text'>预备党员</text>
+        </view>
+
+      </view>
+
+      <view class='view2-right'>
+
+        <view class='view2-right-each' catchtap='skip_experience'>
+          <text>应考\n心得</text>
+        </view>
+
+
+        <view class='view2-right-each' catchtap='skip_use_kill'>
+          <text>使用\n技巧</text>
+        </view>
+
+      </view>
+
+    </view>
+
+  </block>
+
+  <!-- 第二个格局 -->
+  <block wx:elif='{{selectIndex==2}}'>
+
+
+    <view class='view2'>
+
+      <view class='view2-left'>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex1'>
+          <text class='view2-left-each-text'>备考指南</text>
+        </view>
+
+
+        <view class='view2-left-each'>
+          <text style='color:#1E90FF; '>积极分子</text>
+        </view>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex3'>
+          <text class='view2-left-each-text'>发展对象</text>
+        </view>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex4'>
+          <text class='view2-left-each-text'>预备党员</text>
+        </view>
+
+      </view>
+
+      <view class='view2-right'>
+
+
+        <navigator url='../eachgroup/eachgroup?id=11'>
+          <view class='view2-right-each'>
+            <text>2017年\n考试真题</text>
+          </view>
+        </navigator>
+
+
+        <navigator url='../eachgroup/eachgroup?id=12'>
+          <view class='view2-right-each'>
+            <text>2018年\n考试真题</text>
+          </view>
+        </navigator>
+
+      </view>
+
+    </view>
+
+  </block>
+
+
+
+
+  <!-- 第三个格局 -->
+  <block wx:elif='{{selectIndex==3}}'>
+
+    <view class='view2'>
+
+      <view class='view2-left'>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex1'>
+          <text class='view2-left-each-text'>备考指南</text>
+        </view>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex2'>
+          <text class='view2-left-each-text'>积极分子</text>
+        </view>
+
+        <view class='view2-left-each'>
+          <text style='color:#1E90FF; '>发展对象</text>
+        </view>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex4'>
+          <text class='view2-left-each-text'>预备党员</text>
+        </view>
+
+      </view>
+
+      <view class='view2-right'>
+
+        <navigator url='../eachgroup/eachgroup?id=21'>
+          <view class='view2-right-each'>
+            <text>党史</text>
+          </view>
+        </navigator>
+
+        <navigator url='../eachgroup/eachgroup?id=22'>
+          <view class='view2-right-each'>
+            <text>党章</text>
+          </view>
+        </navigator>
+
+        <navigator url='../eachgroup/eachgroup?id=23'>
+          <view class='view2-right-each'>
+            <text>十九大</text>
+          </view>
+        </navigator>
+
+      </view>
+
+    </view>
+
+  </block>
+
+
+
+
+  <!-- 第四个格局 -->
+  <block wx:elif='{{selectIndex==4}}'>
+
+    <view class='view2'>
+
+      <view class='view2-left'>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex1'>
+          <text class='view2-left-each-text'>备考指南</text>
+        </view>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex2'>
+          <text class='view2-left-each-text'>积极分子</text>
+        </view>
+
+        <view class='view2-left-each'>
+          <text class='view2-left-each-text'>发展对象</text>
+        </view>
+
+        <view class='view2-left-each' bindtap='changeSelectIndex4'>
+          <text style='color:#1E90FF; '>预备党员</text>
+        </view>
+
+      </view>
+
+      <view class='view2-right'>
+
+        <navigator url='../eachgroup/eachgroup?id=31'>
+        <view class='view2-right-each'>
+          <text>2017年\n面谈</text>
+        </view>
+        </navigator>
+
+      </view>
+
+    </view>
+
+  </block>
+
+
+</view>
